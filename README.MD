@@ -20,6 +20,19 @@ cp -r -f output/goframe-latest-md-static/* static/
 
 ```
 
+## 本地运行
+
+```shell
+# 安装依赖
+npm ci
+
+# 运行
+npm run start
+
+# 构建
+npm run build
+```
+
 ## 代码块支持语言
 
 https://prismjs.com/#supported-languages

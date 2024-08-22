@@ -1,6 +1,7 @@
 import type * as Preset from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
 import { themes as prismThemes } from 'prism-react-renderer';
+import pkg from './package.json';
 
 const config: Config = {
   title: 'GoFrame',
@@ -70,7 +71,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: '文档',
+          label: '文档 - ' + pkg.version,
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {

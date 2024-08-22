@@ -8,3 +8,5 @@ doc2pdf gf -m=md
 cp -r -f output/goframe-latest-md/* docs/
 cp -r -f output/goframe-latest-md-static/* static/
 rm docs/首页.md
+# 更新版本号为当前日期
+npm run version $(date "+%Y%m%d")
